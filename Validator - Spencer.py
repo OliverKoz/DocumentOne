@@ -32,4 +32,4 @@ def DateValidation(eventDate):
             else:
                 print("The event is today")
                 break
-DateValidation()
+
