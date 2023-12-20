@@ -7,8 +7,8 @@ today = datetime.today()
 today = today.strftime("%d/%m/%Y")
 
 
-def DateValidation():
-    eventDate = input(".")
+def DateValidation(eventDate):
+    
     # Makes sure any invalid dates are inputted
     while True:
         try:
