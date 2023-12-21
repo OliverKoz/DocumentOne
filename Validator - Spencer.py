@@ -29,7 +29,7 @@ def DateValidation(eventDate):
     while eventDate < today:
     # Checks if date is before or after today
     # If its after or is today, it allows the user to store the date
-    # If before today, it wont store it since it has already happened.
+    # If before today, it wont store it since it has already happened. 
 
         if eventDate < today:
             return("Event will happen soon.")        
